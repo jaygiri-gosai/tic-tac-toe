@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#gameBoard {
+  margin: 2rem auto;
+  border: 1px solid black;
+  width: 500px;
+}
+
+.cell {
+  border: none;
+  padding: 1rem;
+  width: 165px;
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+  display: inline-block;
+  text-align: center;
+}
+
+#row1 button:nth-child(3) {
+  border-right: none;
+}
+#row2 button:nth-child(3) {
+  border-right: none;
+}
+#row3 button:nth-child(3) {
+  border-right: none;
+}
+#row3 button {
+  border-bottom: none;
+}
+
+.reset {
+  margin: 0 auto;
+  width: 220px;
+}
+
+#status {
+  margin: 10px auto;
+  width: 150px;
+}
