@@ -36,8 +36,6 @@ The goal of this project was to:
 
 ---
 
----
-
 ## ⚙️ How It Works
 
 1. When the page loads, the browser prompts both players to enter their names.
